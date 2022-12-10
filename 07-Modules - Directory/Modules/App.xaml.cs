@@ -1,6 +1,6 @@
 ﻿using Modules.Views;
 using Prism.Modularity;
-using Prism.Unity;
+using Prism.DryIoc;
 using Prism.Ioc;
 using System.Windows;
 

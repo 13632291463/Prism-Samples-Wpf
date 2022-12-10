@@ -1,6 +1,6 @@
 ﻿using ActivationDeactivation.Views;
 using Prism.Ioc;
-using Prism.Unity;
+using Prism.DryIoc;
 using System.Windows;
 
 namespace ActivationDeactivation

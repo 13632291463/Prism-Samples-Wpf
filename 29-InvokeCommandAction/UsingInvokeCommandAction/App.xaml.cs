@@ -1,5 +1,5 @@
 ﻿using Prism.Ioc;
-using Prism.Unity;
+using Prism.DryIoc;
 using System.Windows;
 using UsingInvokeCommandAction.Views;
 

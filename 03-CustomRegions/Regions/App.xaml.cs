@@ -1,6 +1,6 @@
 ﻿using Prism.Ioc;
 using Prism.Regions;
-using Prism.Unity;
+using Prism.DryIoc;
 using Regions.Views;
 using System.Windows;
 using System.Windows.Controls;

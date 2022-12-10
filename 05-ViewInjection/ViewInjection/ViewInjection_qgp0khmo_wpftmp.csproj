@@ -9,12 +9,12 @@
   <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk.WindowsDesktop" />
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <AssemblyName>BootstrapperShell</AssemblyName>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Prism.Unity" />
+    <ProjectReference Include="..\..\..\Prism\src\Wpf\Prism.DryIoc.Wpf\Prism.DryIoc.Wpf.csproj" />
   </ItemGroup>
   <ItemGroup>
     <ReferencePath Include="C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\3.1.0\ref\netcoreapp3.1\Accessibility.dll" />

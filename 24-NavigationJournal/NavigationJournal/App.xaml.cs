@@ -1,7 +1,7 @@
 ﻿using NavigationJournal.Views;
 using Prism.Ioc;
 using Prism.Modularity;
-using Prism.Unity;
+using Prism.DryIoc;
 using System.Windows;
 
 namespace NavigationJournal

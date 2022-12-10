@@ -1,6 +1,6 @@
 ﻿using Prism.Ioc;
 using Prism.Mvvm;
-using Prism.Unity;
+using Prism.DryIoc;
 using System.Windows;
 using ViewModelLocator.ViewModels;
 using ViewModelLocator.Views;

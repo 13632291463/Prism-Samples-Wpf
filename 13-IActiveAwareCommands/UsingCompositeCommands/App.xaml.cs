@@ -2,7 +2,7 @@
 using ModuleA;
 using Prism.Ioc;
 using Prism.Modularity;
-using Prism.Unity;
+using Prism.DryIoc;
 using UsingCompositeCommands.Core;
 using UsingCompositeCommands.Views;
 

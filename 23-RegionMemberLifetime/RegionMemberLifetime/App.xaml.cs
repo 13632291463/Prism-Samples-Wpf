@@ -1,6 +1,6 @@
 ﻿using Prism.Ioc;
 using Prism.Modularity;
-using Prism.Unity;
+using Prism.DryIoc;
 using RegionMemberLifetime.Views;
 using System.Windows;
 

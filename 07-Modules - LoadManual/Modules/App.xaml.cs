@@ -3,7 +3,7 @@ using ModuleA;
 using Modules.Views;
 using Prism.Ioc;
 using Prism.Modularity;
-using Prism.Unity;
+using Prism.DryIoc;
 
 namespace Modules
 {

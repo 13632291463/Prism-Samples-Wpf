@@ -1,6 +1,6 @@
 ﻿using Prism.Ioc;
 using Prism.Mvvm;
-using Prism.Unity;
+using Prism.DryIoc;
 using System;
 using System.Reflection;
 using System.Windows;

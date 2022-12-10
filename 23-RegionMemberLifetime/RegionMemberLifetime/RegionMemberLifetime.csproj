@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <AssemblyName>RegionMemberLifetime</AssemblyName>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Prism.Unity" />
+    <ProjectReference Include="..\..\..\Prism\src\Wpf\Prism.DryIoc.Wpf\Prism.DryIoc.Wpf.csproj" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ModuleA\ModuleA.csproj" />
