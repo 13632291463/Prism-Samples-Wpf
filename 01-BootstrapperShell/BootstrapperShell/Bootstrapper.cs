@@ -1,8 +1,7 @@
-﻿using Unity;
-using Prism.Unity;
-using BootstrapperShell.Views;
+﻿using BootstrapperShell.Views;
 using System.Windows;
 using Prism.Ioc;
+using Prism.DryIoc;
 
 namespace BootstrapperShell
 {

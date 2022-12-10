@@ -1,5 +1,5 @@
-﻿using Prism.Ioc;
-using Prism.Unity;
+﻿using Prism.DryIoc;
+using Prism.Ioc;
 using Regions.Views;
 using System.Windows;
 

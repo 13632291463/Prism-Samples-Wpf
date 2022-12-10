@@ -171,6 +171,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "26-UsingDialogService", "26
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingDialogService", "26-UsingDialogService\UsingDialogService\UsingDialogService.csproj", "{7B8C9D9A-6130-4943-9353-77F27CD2F160}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prism", "Prism", "{6908D32D-4792-4F2F-B91B-84D2B1CCBD8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prism.DryIoc.Wpf", "..\Prism\src\Wpf\Prism.DryIoc.Wpf\Prism.DryIoc.Wpf.csproj", "{FCD4E863-7279-4E04-B8D1-D6FDFEF6EBAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prism.Wpf", "..\Prism\src\Wpf\Prism.Wpf\Prism.Wpf.csproj", "{129E97E5-FC36-4EC8-B4EC-3796786B3AF5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prism.Core", "..\Prism\src\Prism.Core\Prism.Core.csproj", "{3B64FB55-9258-4CBF-8447-9FC8F83B0A0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prism.Unity.Wpf", "..\Prism\src\Wpf\Prism.Unity.Wpf\Prism.Unity.Wpf.csproj", "{A6B1C7EE-A5C4-4EFC-B2C7-B948B90CB3C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -393,6 +403,22 @@ Global
 		{7B8C9D9A-6130-4943-9353-77F27CD2F160}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B8C9D9A-6130-4943-9353-77F27CD2F160}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B8C9D9A-6130-4943-9353-77F27CD2F160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCD4E863-7279-4E04-B8D1-D6FDFEF6EBAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD4E863-7279-4E04-B8D1-D6FDFEF6EBAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD4E863-7279-4E04-B8D1-D6FDFEF6EBAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD4E863-7279-4E04-B8D1-D6FDFEF6EBAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{129E97E5-FC36-4EC8-B4EC-3796786B3AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129E97E5-FC36-4EC8-B4EC-3796786B3AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129E97E5-FC36-4EC8-B4EC-3796786B3AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129E97E5-FC36-4EC8-B4EC-3796786B3AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B64FB55-9258-4CBF-8447-9FC8F83B0A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B64FB55-9258-4CBF-8447-9FC8F83B0A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B64FB55-9258-4CBF-8447-9FC8F83B0A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B64FB55-9258-4CBF-8447-9FC8F83B0A0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6B1C7EE-A5C4-4EFC-B2C7-B948B90CB3C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B1C7EE-A5C4-4EFC-B2C7-B948B90CB3C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B1C7EE-A5C4-4EFC-B2C7-B948B90CB3C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B1C7EE-A5C4-4EFC-B2C7-B948B90CB3C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -452,8 +478,16 @@ Global
 		{BF1426E0-1D30-4B40-B43D-29E134074C26} = {DAAD6831-29DD-41BC-A84B-90821D34C1DD}
 		{F6FB8B37-4326-4E12-9665-77D2B299EC72} = {64E6ED54-B27A-4437-AE69-9C2342D9543D}
 		{7B8C9D9A-6130-4943-9353-77F27CD2F160} = {6E327AF8-1D7E-450B-B59C-784148AE85FB}
+		{FCD4E863-7279-4E04-B8D1-D6FDFEF6EBAD} = {6908D32D-4792-4F2F-B91B-84D2B1CCBD8A}
+		{129E97E5-FC36-4EC8-B4EC-3796786B3AF5} = {6908D32D-4792-4F2F-B91B-84D2B1CCBD8A}
+		{3B64FB55-9258-4CBF-8447-9FC8F83B0A0A} = {6908D32D-4792-4F2F-B91B-84D2B1CCBD8A}
+		{A6B1C7EE-A5C4-4EFC-B2C7-B948B90CB3C4} = {6908D32D-4792-4F2F-B91B-84D2B1CCBD8A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8E9EF679-354A-486B-8383-2AD4D2D972AB}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\Prism\src\Containers\Prism.Unity.Shared\Prism.Unity.Shared.projitems*{a6b1c7ee-a5c4-4efc-b2c7-b948b90cb3c4}*SharedItemsImports = 5
+		..\Prism\src\Containers\Prism.DryIoc.Shared\Prism.DryIoc.Shared.projitems*{fcd4e863-7279-4e04-b8d1-d6fdfef6ebad}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal
