@@ -7,6 +7,7 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Prism\src\Wpf\Prism.DryIoc.Wpf\Prism.DryIoc.Wpf.csproj" />
+    <ProjectReference Include="..\..\..\Prism\src\Wpf\Prism.Wpf\Prism.Wpf.csproj" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ModuleA\ModuleA.csproj" />

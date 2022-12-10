@@ -1,11 +1,13 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
-    <AssemblyName>ViewModelLocator</AssemblyName>
+	<Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Prism\src\Prism.Core\Prism.Core.csproj" />
     <ProjectReference Include="..\..\..\Prism\src\Wpf\Prism.DryIoc.Wpf\Prism.DryIoc.Wpf.csproj" />
+    <ProjectReference Include="..\..\..\Prism\src\Wpf\Prism.Wpf\Prism.Wpf.csproj" />
   </ItemGroup>
 </Project>
