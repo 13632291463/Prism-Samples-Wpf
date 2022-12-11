@@ -4,6 +4,7 @@ namespace UsingCompositeCommands.Core
 {
     public interface IApplicationCommands
     {
+        //CompositeCommand 复合命令
         CompositeCommand SaveCommand { get; }
     }
 
