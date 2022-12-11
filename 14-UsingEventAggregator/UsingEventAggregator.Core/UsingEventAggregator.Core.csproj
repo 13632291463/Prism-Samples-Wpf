@@ -5,6 +5,6 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Prism.Core" />
+    <ProjectReference Include="..\..\..\Prism\src\Prism.Core\Prism.Core.csproj" />
   </ItemGroup>
 </Project>
