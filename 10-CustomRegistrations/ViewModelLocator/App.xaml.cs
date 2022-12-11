@@ -33,9 +33,11 @@ namespace ViewModelLocator
             //ViewModelLocationProvider.Register(typeof(MainWindow).ToString(), () => Container.Resolve<CustomViewModel>());
 
             // generic factory
+            //泛型 工厂
             //ViewModelLocationProvider.Register<MainWindow>(() => Container.Resolve<CustomViewModel>());
 
             // generic type
+            //泛型 类型
             ViewModelLocationProvider.Register<MainWindow, CustomViewModel>();
         }
     }
